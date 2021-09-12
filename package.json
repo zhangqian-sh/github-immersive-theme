@@ -1,0 +1,66 @@
+{
+	"name": "github-immersive-theme",
+	"displayName": "GitHub Immersive Theme",
+	"description": "GitHub Immersive theme for VS Code",
+	"version": "0.1.1",
+	"preview": true,
+	"publisher": "zhangqian98sh",
+	"license": "MIT",
+	"icon": "icon.png",
+	"galleryBanner": {
+		"color": "#1b1f23",
+		"theme": "dark"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/zhangqian-sh/github-immersive-theme"
+	},
+	"bugs": {
+		"url": "https://github.com/zhangqian-sh/github-immersive-theme/issues"
+	},
+	"engines": {
+		"vscode": "^1.43.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"theme",
+		"github",
+		"light",
+		"dark"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "GitHub Light Immersive",
+				"uiTheme": "vs",
+				"path": "./themes/light-immersive-color-theme.json"
+			},
+			{
+				"label": "GitHub Light Immersive Gary",
+				"uiTheme": "vs",
+				"path": "./themes/light-gray-immersive-color-theme.json"
+			},
+			{
+				"label": "GitHub Dark Immersive",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark-immersive-color-theme.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"@primer/primitives": "^2.0.1",
+		"color": "^3.1.2",
+		"nodemon": "^2.0.3"
+	},
+	"scripts": {
+		"start": "nodemon --watch src src/index.js",
+		"build": "node src/index.js"
+	},
+	"__metadata": {
+		"id": "7328a705-91fc-49e6-8293-da6f112e482d",
+		"publisherId": "7c1c19cd-78eb-4dfb-8999-99caf7679002",
+		"publisherDisplayName": "GitHub"
+	}
+}
