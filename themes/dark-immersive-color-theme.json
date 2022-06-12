@@ -150,8 +150,6 @@
     "peekViewResult.background": "#1f2428",
     "settings.headerForeground": "#e1e4e8",
     "settings.modifiedItemIndicator": "#0366d6",
-    "welcomePage.buttonBackground": "#2f363d",
-    "welcomePage.buttonHoverBackground": "#444d56"
   },
   "semanticHighlighting": true,
   "tokenColors": [
@@ -288,9 +286,7 @@
       "scope": "carriage-return",
       "settings": {
         "fontStyle": "italic underline",
-        "background": "#f97583",
         "foreground": "#24292e",
-        "content": "^M"
       }
     },
     {
@@ -405,7 +401,6 @@
         "punctuation.definition.deleted"
       ],
       "settings": {
-        "background": "#86181d",
         "foreground": "#fdaeb7"
       }
     },
@@ -416,7 +411,6 @@
         "punctuation.definition.inserted"
       ],
       "settings": {
-        "background": "#144620",
         "foreground": "#85e89d"
       }
     },
@@ -426,7 +420,6 @@
         "punctuation.definition.changed"
       ],
       "settings": {
-        "background": "#c24e00",
         "foreground": "#ffab70"
       }
     },
@@ -437,7 +430,6 @@
       ],
       "settings": {
         "foreground": "#2f363d",
-        "background": "#79b8ff"
       }
     },
     {
