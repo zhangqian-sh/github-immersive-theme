@@ -2,7 +2,7 @@
 	"name": "github-immersive-theme",
 	"displayName": "GitHub Immersive Theme",
 	"description": "GitHub Immersive theme for VS Code",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"preview": true,
 	"publisher": "zhangqian98sh",
 	"license": "MIT",
