@@ -2,7 +2,7 @@
 	"name": "github-immersive-theme",
 	"displayName": "GitHub Immersive Theme",
 	"description": "GitHub Immersive theme for VS Code",
-	"version": "0.1.5",
+	"version": "0.1.6",
 	"preview": true,
 	"publisher": "zhangqian98sh",
 	"license": "MIT",
@@ -47,6 +47,11 @@
 				"label": "GitHub Dark Immersive",
 				"uiTheme": "vs-dark",
 				"path": "./themes/dark-immersive-color-theme.json"
+			},
+			{
+				"label": "GitHub Darker Immersive",
+				"uiTheme": "vs-dark",
+				"path": "./themes/darker-immersive-color-theme.json"
 			}
 		]
 	},
